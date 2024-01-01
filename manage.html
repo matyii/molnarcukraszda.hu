@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Molnár Cukrászda</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="shortcut icon" href="assets/img/logo.png" type="image/png">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg border-bottom">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Molnár Cukrászda</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end text-center" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Főoldal</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="products.html">Termékek</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Felhasználó</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="login.html">Bejelentkezés</a>
+                            <a class="dropdown-item" href="register.html">Regisztráció</a>
+                            <a class="dropdown-item" href="user.html">Kezelés</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Admin</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="admin.html">Vezérlőpult</a>
+                            <a class="dropdown-item active" href="manage.html">Felhasználók kezelése</a>
+                            <a class="dropdown-item" href="orders.html">Rendelések kezelése</a>
+                        </div>
+                    </li>
+                    <li class="dropdown" id="themeDropdown">
+                        <a class="nav-link dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Téma</a>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <a class="dropdown-item" href="#" data-theme="dark">Fekete</a>
+                            <a class="dropdown-item" href="#" data-theme="white">Fehér</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a href="cart.html" class="nav-link">Kosár</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="container mt-5">
+            <h1>Felhasználók</h1>
+            <a href="#" class="btn btn-success">Fiók létrehozása</a>
+            <a href="#" class="btn btn-info">Fiók kezelése</a>
+            <a href="#" class="btn btn-info">Fiókhoz társított rendelések</a>
+            <a href="#" class="btn btn-warning">Fiók felfüggesztése</a>
+            <a href="#" class="btn btn-danger">Fiók törlése</a>
+        </div>
+        <table class="table table-striped my-5">
+            <thead>
+                <tr>
+                    <th scope="col">Kiválaszt</th>
+                    <th scope="col">Felhasználói azonosító</th>
+                    <th scope="col">Teljes név</th>
+                    <th scope="col">Felhasználónév</th>
+                    <th scope="col">Email cím</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><div class="form-check"><input class="form-check-input" type="checkbox"></div></td>
+                    <td>1001</td>
+                    <td>János Kovács</td>
+                    <td>jkovacs</td>
+                    <td>janos.kovacs@example.com</td>
+                </tr>
+                <tr>
+                    <td><div class="form-check"><input class="form-check-input" type="checkbox"></div></td>
+                    <td>1002</td>
+                    <td>Emese Nagy</td>
+                    <td>enagy</td>
+                    <td>emese.nagy@example.com</td>
+                </tr>
+                <tr>
+                    <td><div class="form-check"><input class="form-check-input" type="checkbox"></div></td>
+                    <td>1003</td>
+                    <td>Gergő Tóth</td>
+                    <td>gtoth</td>
+                    <td>gergo.toth@example.com</td>
+                </tr>
+                <tr>
+                    <td><div class="form-check"><input class="form-check-input" type="checkbox"></div></td>
+                    <td>1004</td>
+                    <td>Zoltán Varga</td>
+                    <td>zvarga</td>
+                    <td>zoltan.varga@example.com</td>
+                </tr>
+                <tr>
+                    <td><div class="form-check"><input class="form-check-input" type="checkbox"></div></td>
+                    <td>1005</td>
+                    <td>Anikó Balázs</td>
+                    <td>abalazs</td>
+                    <td>aniko.balazs@example.com</td>
+                </tr>
+                <tr>
+                    <td><div class="form-check"><input class="form-check-input" type="checkbox"></div></td>
+                    <td>1006</td>
+                    <td>Mária Kiss</td>
+                    <td>mkiss</td>
+                    <td>maria.kiss@example.com</td>
+                </tr>
+                <tr>
+                    <td><div class="form-check"><input class="form-check-input" type="checkbox"></div></td>
+                    <td>1007</td>
+                    <td>Attila Horváth</td>
+                    <td>ahorvath</td>
+                    <td>attila.horvath@example.com</td>
+                </tr>
+                <tr>
+                    <td><div class="form-check"><input class="form-check-input" type="checkbox"></div></td>
+                    <td>1008</td>
+                    <td>Éva Farkas</td>
+                    <td>efarkas</td>
+                    <td>eva.farkas@example.com</td>
+                </tr>
+                <tr>
+                    <td><div class="form-check"><input class="form-check-input" type="checkbox"></div></td>
+                    <td>1009</td>
+                    <td>Péter Szabó</td>
+                    <td>pszabo</td>
+                    <td>peter.szabo@example.com</td>
+                </tr>
+                <tr>
+                    <td><div class="form-check"><input class="form-check-input" type="checkbox"></div></td>
+                    <td>1010</td>
+                    <td>Ildikó Kovács</td>
+                    <td>ikovacs</td>
+                    <td>ildiko.kovacs@example.com</td>
+                </tr>
+                <tr>
+                    <td><div class="form-check"><input class="form-check-input" type="checkbox"></div></td>
+                    <td>1011</td>
+                    <td>Endre Takács</td>
+                    <td>etakacs</td>
+                    <td>endre.takacs@example.com</td>
+                </tr>
+                <tr>
+                    <td><div class="form-check"><input class="form-check-input" type="checkbox"></div></td>
+                    <td>1012</td>
+                    <td>Virág Simon</td>
+                    <td>vsimon</td>
+                    <td>virag.simon@example.com</td>
+                </tr>
+                <tr>
+                    <td><div class="form-check"><input class="form-check-input" type="checkbox"></div></td>
+                    <td>1013</td>
+                    <td>Balázs Molnár</td>
+                    <td>bmolnar</td>
+                    <td>balazs.molnar@example.com</td>
+                </tr>
+                <tr>
+                    <td><div class="form-check"><input class="form-check-input" type="checkbox"></div></td>
+                    <td>1014</td>
+                    <td>Beáta Szűcs</td>
+                    <td>bszucs</td>
+                    <td>beata.szucs@example.com</td>
+                </tr>
+                <tr>
+                    <td><div class="form-check"><input class="form-check-input" type="checkbox"></div></td>
+                    <td>1015</td>
+                    <td>László Fehér</td>
+                    <td>lfeher</td>
+                    <td>laszlo.feher@example.com</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>    
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="assets/js/theme.js"></script>
+</html>
