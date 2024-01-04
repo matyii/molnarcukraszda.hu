@@ -1,0 +1,99 @@
+{
+    "0": {
+      "name": "Jegeskávé",
+      "image": "../assets/img/products/coffees/1.jpg",
+      "ingredients": ["Kávé", "Jég", "Tej"],
+      "size": "250 ml",
+      "price": "4.5€",
+      "allergens": ["Tej"]
+    },
+    "1": {
+      "name": "Espresso",
+      "image": "../assets/img/products/coffees/2.jpg",
+      "ingredients": ["Kávé"],
+      "size": "20 ml",
+      "price": "3.5€",
+      "allergens": ["Nincs"]
+    },
+    "2": {
+      "name": "Karamellás kávé",
+      "image": "../assets/img/products/coffees/3.jpg",
+      "ingredients": ["Kávé", "Karamell", "Tej"],
+      "size": "350 ml",
+      "price": "5€",
+      "allergens": ["Tej"]
+    },
+    "3": {
+      "name": "Cappuccino",
+      "image": "../assets/img/products/coffees/4.jpg",
+      "ingredients": ["Cappuccino por", "Tej"],
+      "size": "250 ml",
+      "price": "4€",
+      "allergens": ["Tej"]
+    },
+
+    "4": {
+      "name": "Karamellás macchiato",
+      "image": "../assets/img/products/coffees/5.jpg",
+      "ingredients": ["Kávé", "Karamell", "Tej"],
+      "size": "200 ml",
+      "price": "5€",
+      "allergens": ["Tej"]
+    },
+    "5": {
+      "name": "Vaníliás latte macchiato",
+      "image": "../assets/img/products/coffees/6.jpg",
+      "ingredients": ["Kávé", "Vanília", "Tej"],
+      "size": "200 ml",
+      "price": "5€",
+      "allergens": ["Vanília", "Tej"]
+    },
+    "6": {
+      "name": "Mogyorós kávé",
+      "image": "../assets/img/products/coffees/7.jpg",
+      "ingredients": ["Kávé", "Mogyoró", "Tej"],
+      "size": "250 ml",
+      "price": "5.5€",
+      "allergens": ["Mogyoró", "Tej"]
+    },
+    "7": {
+      "name": "Kókuszos kávé",
+      "image": "../assets/img/products/coffees/8.jpg",
+      "ingredients": ["Kávé", "Kókusz", "Tej"],
+      "size": "250 ml",
+      "price": "5€",
+      "allergens": ["Kókusz", "Tej"]
+    },
+    "8": {
+      "name": "Fahéjas kávé",
+      "image": "../assets/img/products/coffees/9.jpg",
+      "ingredients": ["Kávé", "Fahéj", "Tej"],
+      "size": "100 ml",
+      "price": "3.5€",
+      "allergens": ["Tej"]
+    },
+    "9": {
+      "name": "Csokoládés",
+      "image": "../assets/img/products/coffees/10.jpg",
+      "ingredients": ["Kávé", "Csokoládé", "Tej"],
+      "size": "250 ml",
+      "price": "5€",
+      "allergens": ["Tej"]
+    },
+    "10": {
+      "name": "Narancsos jegeskávé",
+      "image": "../assets/img/products/coffees/11.jpg",
+      "ingredients": ["Kávé", "Narancs", "Jég", "Tej"],
+      "size": "300 ml",
+      "price": "5.5€",
+      "allergens": ["Narancs", "Tej"]
+    },
+    "11": {
+      "name": "Matcha latte",
+      "image": "../assets/img/products/coffees/12.jpg",
+      "ingredients": ["Kávé", "Matcha por", "Tej"],
+      "size": "300 ml",
+      "price": "5€",
+      "allergens": ["Tej"]
+    }
+}

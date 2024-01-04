@@ -14,3 +14,4 @@ This project is only the front-end (for now). So, there is no functionality of t
 - Pure Bootstrap
 - Admin Dashboard
 - User/Order Management
+- Different elements as 'modules', so it's easily usable anywhere with just using and id tagged div.

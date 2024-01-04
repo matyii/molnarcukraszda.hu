@@ -1,0 +1,98 @@
+{
+    "0": {
+      "name": "Epres fagylalt",
+      "image": "../assets/img/products/ice_creams/1.jpg",
+      "ingredients": ["Eper", "Tejszín", "Tej", "Cukor"],
+      "size": "120 g",
+      "price": "5€",
+      "allergens": ["Eper", "Tej"]
+    },
+    "1": {
+      "name": "Karamellás fagylalt",
+      "image": "../assets/img/products/ice_creams/2.jpg",
+      "ingredients": ["Karamella", "Tejszín", "Tej", "Cukor"],
+      "size": "125 g",
+      "price": "5.5€",
+      "allergens": ["Tej"]
+    },
+    "2": {
+      "name": "Görögdinnyés fagylalt",
+      "image": "../assets/img/products/ice_creams/3.jpg",
+      "ingredients": ["Görögdinnye", "Tejszín", "Tej", "Cukor"],
+      "size": "120 g",
+      "price": "5€",
+      "allergens": ["Görögdinnye", "Tej"]
+    },
+    "3": {
+      "name": "Mogyorós fagylalt",
+      "image": "../assets/img/products/ice_creams/4.jpg",
+      "ingredients": ["Mogyoró", "Tejszín", "Tej", "Cukor"],
+      "size": "130 g",
+      "price": "5€",
+      "allergens": ["Mogyoró", "Tej"]
+    },
+    "4": {
+      "name": "Tutti-frutti fagylalt",
+      "image": "../assets/img/products/ice_creams/5.jpg",
+      "ingredients": ["Csokoládé", "Gyümölcs (Eper, áfonya)", "Citromlé", "Tejszín", "Tej", "Cukor"],
+      "size": "115 g",
+      "price": "4.5€",
+      "allergens": ["Eper", "Áfonya", "Citrom", "Tej"]
+    },
+    "5": {
+      "name": "Pekándiós fagylalt",
+      "image": "../assets/img/products/ice_creams/6.jpg",
+      "ingredients": ["Pekándió", "Tejszín", "Tej", "Cukor"],
+      "size": "130 g",
+      "price": "5€",
+      "allergens": ["Pekándió", "Tej"]
+    },
+    "6": {
+      "name": "Csokoládés fagylalt",
+      "image": "../assets/img/products/ice_creams/7.jpg",
+      "ingredients": ["Csokoládé", "Tejszín", "Tej", "Cukor"],
+      "size": "125 g",
+      "price": "5.5€",
+      "allergens": ["Tej"]
+    },
+    "7": {
+      "name": "Almás fagylalt",
+      "image": "../assets/img/products/ice_creams/8.jpg",
+      "ingredients": ["Alma", "Tejszín", "Tej", "Cukor"],
+      "size": "120 g",
+      "price": "4.5€",
+      "allergens": ["Tej"]
+    },
+    "8": {
+      "name": "Citromos fagylalt",
+      "image": "../assets/img/products/ice_creams/9.jpg",
+      "ingredients": ["Citrom", "Tejszín", "Tej", "Cukor"],
+      "size": "135 g",
+      "price": "5€",
+      "allergens": ["Citrom", "Tej"]
+    },
+    "9": {
+      "name": "Vaníliás fagylalt",
+      "image": "../assets/img/products/ice_creams/10.jpg",
+      "ingredients": ["Vanília", "Tejszín", "Tej", "Cukor"],
+      "size": "125 g",
+      "price": "5€",
+      "allergens": ["Vanília", "Tej"]
+    },
+    "10": {
+      "name": "Oreós fagylalt",
+      "image": "../assets/img/products/ice_creams/11.jpg",
+      "ingredients": ["Oreo", "Tejszín", "Tej", "Cukor"],
+      "size": "130 g",
+      "price": "5.5€",
+      "allergens": ["Tej"]
+    },
+    "11": {
+      "name": "Pisztáciás fagylalt",
+      "image": "../assets/img/products/ice_creams/12.jpg",
+      "ingredients": ["Pisztácia", "Tejszín", "Tej", "Cukor"],
+      "size": "120 g",
+      "price": "4.5€",
+      "allergens": ["Pisztácia", "Tej"]
+    }
+}

@@ -1,58 +1,16 @@
 <!DOCTYPE html>
-<html lang="en" data-bs-theme="dark">
+<html lang="en" >
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Molnár Cukrászda</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
-    <link rel="shortcut icon" href="assets/img/logo.png" type="image/png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <link rel="shortcut icon" href="../assets/img/logo.png" type="image/png">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg border-bottom">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">Molnár Cukrászda</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse justify-content-end text-center" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html">Főoldal</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="products.html">Termékek</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Felhasználó</a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="login.html">Bejelentkezés</a>
-                            <a class="dropdown-item" href="register.html">Regisztráció</a>
-                            <a class="dropdown-item" href="user.html">Kezelés</a>
-                        </div>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Admin</a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="admin.html">Vezérlőpult</a>
-                            <a class="dropdown-item" href="manage.html">Felhasználók kezelése</a>
-                            <a class="dropdown-item" href="orders.html">Rendelések kezelése</a>
-                        </div>
-                    </li>
-                    <li class="dropdown" id="themeDropdown">
-                        <a class="nav-link dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Téma</a>
-                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                            <a class="dropdown-item" href="#" data-theme="dark">Fekete</a>
-                            <a class="dropdown-item" href="#" data-theme="white">Fehér</a>
-                        </div>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#" class="nav-link active">Kosár</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-    <div class="container my-5">
+    <div id="navbar-module"></div>
+    <div class="container my-5 pt-5">
         <div class="row">
             <div class="col-md-8">
                 <div class="row">
@@ -63,12 +21,13 @@
                                 <div class="card mb-3">
                                     <div class="row g-0">
                                       <div class="col-md-4">
-                                        <img src="assets/img/products/10.jpg" class="img-fluid rounded-start" style="width: 200px;">
+                                        <img src="../assets/img/products/cakes/10.jpg" class="img-fluid rounded-start" style="width: 200px;">
                                       </div>
                                       <div class="col-md-8">
                                         <div class="card-body">
-                                            <h5 class="card-title">Sárgabarackos marcipán torta</h5>
-                                            <p class="card-text">Sárgabarack, marcipán, tojás, cukor, liszt. Átmérő 26 cm</p>
+                                            <h5 class="card-title">Eper torta</h5>
+                                            <p class="card-text">Eper, Tejszín, Tojás, Cukor, Liszt</p>
+                                            <p class="card-text">Átmérő 26 cm</p>
                                             <div class="d-flex justify-content-end">
                                                 <p class="fw-bold">35€</p>
                                             </div>
@@ -89,13 +48,13 @@
                                     <div class="form-check form-check-inline">
                                         <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" value="GLS">
                                         <label class="form-check-label" for="flexRadioDefault1">
-                                            <img src="assets/img/cart/shipping/gls.png" style="width: 50px; height: auto; margin-right: 10px;">
+                                            <img src="../assets/img/cart/shipping/gls.png" style="width: 50px; height: auto; margin-right: 10px;">
                                         </label>
                                     </div>
                                     <div class="form-check form-check-inline">
                                         <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" value="DPD">
                                         <label class="form-check-label" for="flexRadioDefault2">
-                                            <img src="assets/img/cart/shipping/dpd.png" style="width: 50px; height: auto; margin-right: 10px;">
+                                            <img src="../assets/img/cart/shipping/dpd.png" style="width: 50px; height: auto; margin-right: 10px;">
                                         </label>
                                     </div>
                                     <div class="form-check form-check-inline">
@@ -177,7 +136,8 @@
     </div>
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-<script src="assets/js/theme.js"></script>
-<script src="assets/js/cardCheck.js"></script>
-<script src="assets/js/cart.js"></script>
+
+<script src="../assets/js/cardCheck.js"></script>
+<script src="../assets/js/cart.js"></script>
+<script src="../assets/js/modules.js"></script>
 </html>

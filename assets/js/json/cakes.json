@@ -1,0 +1,98 @@
+{
+    "0": {
+      "name": "Csokoládétorta",
+      "image": "../assets/img/products/cakes/1.jpg",
+      "ingredients": ["Csokoládé", "Tojás", "Cukor", "Liszt"],
+      "size": "Átmérő 24 cm",
+      "price": "20€",
+      "allergens": ["Tojás", "Glutén"]
+    },
+    "1": {
+      "name": "Fekete-erdő torta",
+      "image": "../assets/img/products/cakes/2.jpg",
+      "ingredients": ["Meggy", "Tejszín", "Tojás", "Cukor", "Liszt"],
+      "size": "Átmérő 20 cm",
+      "price": "20€",
+      "allergens": ["Meggy", "Tojás", "Glutén"]
+    },
+    "2": {
+      "name": "Gyümölcstorta",
+      "image": "../assets/img/products/cakes/3.jpg",
+      "ingredients": ["Gyümölcsök (Eper, Málna, Szeder, Áfonya)", "Tojás", "Cukor", "Liszt"],
+      "size": "Átmérő 26 cm",
+      "price": "30€",
+      "allergens": ["Eper", "Áfonya", "Szeder", "Málna", "Tojás", "Glutén"]
+    },
+    "3": {
+      "name": "Mogyorós-karamelltorta",
+      "image": "../assets/img/products/cakes/4.jpg",
+      "ingredients": ["Mogyoró", "Karamell", "Tojás", "Cukor", "Liszt"],
+      "size": "Átmérő 22 cm",
+      "price": "32€",
+      "allergens": ["Mogyoró", "Tojás", "Glutén"]
+    },
+    "4": {
+      "name": "Málnás tiramisu torta",
+      "image": "../assets/img/products/cakes/5.jpg",
+      "ingredients": ["Kávé", "Málna", "Tejszín", "Tojás", "Cukor", "Liszt"],
+      "size": "Átmérő 24 cm",
+      "price": "25€",
+      "allergens": ["Málna", "Tej", "Tojás", "Glutén"]
+    },
+    "5": {
+      "name": "Diótorta",
+      "image": "../assets/img/products/cakes/6.jpg",
+      "ingredients": ["Dió", "Tojás", "Cukor", "Liszt"],
+      "size": "Átmérő 20 cm",
+      "price": "20€",
+      "allergens": ["Dió", "Tojás", "Glutén"]
+    },
+    "6": {
+      "name": "Citromos máktorta",
+      "image": "../assets/img/products/cakes/7.jpg",
+      "ingredients": ["Mák", "Citrom", "Tojás", "Cukor", "Liszt"],
+      "size": "Átmérő 26 cm",
+      "price": "30€",
+      "allergens": ["Mák", "Citrom", "Tojás", "Glutén"]
+    },
+    "7": {
+      "name": "Málnás-csokis torta",
+      "image": "../assets/img/products/cakes/8.jpg",
+      "ingredients": ["Málna", "Csokoládé", "Tojás", "Cukor", "Liszt"],
+      "size": "Átmérő 22 cm",
+      "price": "25€",
+      "allergens": ["Málna", "Tojás", "Glutén"]
+    },
+    "8": {
+      "name": "Ferrero Rocher torta",
+      "image": "../assets/img/products/cakes/9.jpg",
+      "ingredients": ["Mogyoró", "Csokoládé", "Tojás", "Cukor", "Liszt"],
+      "size": "Átmérő 24 cm",
+      "price": "32€",
+      "allergens": ["Mogyoró", "Tojás", "Glutén"]
+    },
+    "9": {
+      "name": "Vörös bársony torta",
+      "image": "../assets/img/products/cakes/10.jpg",
+      "ingredients": ["Kakaó", "Vanília kivonat", "Tejföl","Tojás", "Cukor", "Liszt"],
+      "size": "Átmérő 26 cm",
+      "price": "35€",
+      "allergens": ["Vanília", "Tej","Tojás", "Glutén"]
+    },
+    "10": {
+      "name": "Epertorta",
+      "image": "../assets/img/products/cakes/11.jpg",
+      "ingredients": ["Eper", "Tejszín", "Tojás", "Cukor", "Liszt"],
+      "size": "Átmérő 26 cm",
+      "price": "35€",
+      "allergens": ["Eper", "Tej", "Tojás", "Glutén"]
+   },
+    "11": {
+      "name": "Fehércsokoládés sajttorta",
+      "image": "../assets/img/products/cakes/12.jpg",
+      "ingredients": ["Fehércsokoládé", "Krémsajt", "Tejszín", "Tojás", "Cukor", "Liszt"],
+      "size": "Átmérő 26 cm",
+      "price": "35€",
+      "allergens": ["Tej", "Tojás", "Glutén"]
+   }
+}

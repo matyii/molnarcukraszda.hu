@@ -1,0 +1,98 @@
+{
+  "0": {
+    "name": "Csokis brownie",
+    "image": "../assets/img/products/desserts/1.jpg",
+    "ingredients": ["Csokoládé", "Vaj", "Cukor", "Liszt"],
+    "size": "50 g",
+    "price": "3€",
+    "allergens": ["Tej", "Glutén"]
+  },
+  "1": {
+    "name": "Mákos tekercs",
+    "image": "../assets/img/products/desserts/2.jpg",
+    "ingredients": ["Mák", "Cukor", "Tojás", "Liszt"],
+    "size": "60 g",
+    "price": "3.5€",
+    "allergens": ["Mák", "Tojás", "Glutén"]
+  },
+  "2": {
+    "name": "Krémes szelet",
+    "image": "../assets/img/products/desserts/3.jpg",
+    "ingredients": ["Tejszín", "Cukor", "Tojás", "Liszt"],
+    "size": "55 g",
+    "price": "3€",
+    "allergens": ["Tej", "Tojás", "Glutén"]
+  },
+  "3": {
+    "name": "Diós kocka",
+    "image": "../assets/img/products/desserts/4.jpg",
+    "ingredients": ["Dió", "Vaj", "Cukor", "Liszt"],
+    "size": "45 g",
+    "price": "2.5€",
+    "allergens": ["Dió", "Tej", "Glutén"]
+  },
+  "4": {
+    "name": "Mákos guba",
+    "image": "../assets/img/products/desserts/5.jpg",
+    "ingredients": ["Mák", "Tej", "Cukor", "Kenyér"],
+    "size": "70 g",
+    "price": "3.5€",
+    "allergens": ["Mák", "Tej", "Glutén"]
+  },
+  "5": {
+    "name": "Csokoládés-málnás muffin",
+    "image": "../assets/img/products/desserts/6.jpg",
+    "ingredients": ["Csokoládé", "Málna", "Cukor", "Vaj", "Liszt"],
+    "size": "65 g",
+    "price": "3€",
+    "allergens": ["Tej", "Glutén"]
+  },
+  "6": {
+    "name": "Almás pite",
+    "image": "../assets/img/products/desserts/7.jpg",
+    "ingredients": ["Alma", "Cukor", "Vaj", "Liszt"],
+    "size": "60 g",
+    "price": "3€",
+    "allergens": ["Tej", "Glutén"]
+  },
+  "7": {
+    "name": "Fahéjas csiga",
+    "image": "../assets/img/products/desserts/8.jpg",
+    "ingredients": ["Fahéj", "Cukor", "Tojás", "Liszt"],
+    "size": "55 g",
+    "price": "3.5€",
+    "allergens": ["Tej", "Tojás", "Glutén"]
+  },
+  "8": {
+    "name": "Meggyes pite",
+    "image": "../assets/img/products/desserts/9.jpg",
+    "ingredients": ["Meggy", "Cukor", "Vaj", "Liszt"],
+    "size": "50 g",
+    "price": "3€",
+    "allergens": ["Tej", "Glutén"]
+  },
+  "9": {
+    "name": "Csokis rolád",
+    "image": "../assets/img/products/desserts/10.jpg",
+    "ingredients": ["Csokoládé", "Tojás", "Cukor", "Liszt"],
+    "size": "65 g",
+    "price": "3.5€",
+    "allergens": ["Tojás", "Glutén"]
+  },
+  "10": {
+    "name": "Tiramisu",
+    "image": "../assets/img/products/desserts/11.jpg",
+    "ingredients": ["Kávé", "Rum", "Mascarpone", "Tojás", "Cukor", "Liszt"],
+    "size": "65 g",
+    "price": "3.5€",
+    "allergens": ["Tej", "Tojás", "Glutén"]
+  },
+  "11": {
+    "name": "Csokoládészuflé",
+    "image": "../assets/img/products/desserts/12.jpg",
+    "ingredients": ["Csokoládé", "Tojás", "Cukor", "Liszt"],
+    "size": "65 g",
+    "price": "3.5€",
+    "allergens": ["Tojás", "Glutén"]
+  }
+}

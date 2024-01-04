@@ -1,5 +1,5 @@
-const visa = "assets/img/cart/payment/visa.svg";
-const mastercard = "assets/img/cart/payment/mastercard.svg";
+const visa = "../assets/img/cart/payment/visa.svg";
+const mastercard = "../assets/img/cart/payment/mastercard.svg";
 
 document.getElementById('inputCardNumber').addEventListener('input', function() {
     let cardNumber = this.value.replace(/\D/g, '');
@@ -31,10 +31,8 @@ document.getElementById('inputCardNumber').addEventListener('input', function() 
         }
 
         cardImageLabel.innerHTML = cardTypeImage;
-        cardImageLabelClasses.remove('d-none');
     } else {
         cardImageLabel.innerHTML = '';
-        cardImageLabelClasses.add('d-none');
     }
     if (this.value !== formattedCardNumber.trim()) {
         this.value = formattedCardNumber.trim();
