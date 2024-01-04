@@ -1,4 +1,4 @@
-![brand](brand/brand.png)
+![brand](brand.png)
 # Molnár Cukrászda
 
 "Molnár Cukrászda" is an online bakery, a figment of creative imagination, showcasing delightful cakes and pastries that exist solely in the digital realm. This website is an inventive culminating project, a fusion of artistic design and the allure of a sweet paradise, despite not being an actual bakery.
