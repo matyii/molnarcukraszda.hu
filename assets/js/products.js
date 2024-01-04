@@ -79,14 +79,14 @@ function getCurrentPage() {
 window.onload = async () => {
   const currentPage = getCurrentPage();
   if (currentPage.includes('cakes')) {
-    await loadProducts('./assets/js/json/cakes.json', 'cakeCards');
+    await loadProducts('assets/js/json/cakes.json', 'cakeCards');
   } else if (currentPage.includes('desserts')) {
-      await loadProducts('./assets/js/json/desserts.json', 'dessertCards');
+      await loadProducts('assets/js/json/desserts.json', 'dessertCards');
   } else if (currentPage.includes('drinks')) {
-      await loadProducts('./assets/js/json/drinks.json', 'drinkCards');
+      await loadProducts('assets/js/json/drinks.json', 'drinkCards');
   } else if (currentPage.includes('coffees')) {
-      await loadProducts('./assets/js/json/coffees.json', 'coffeeCards');
+      await loadProducts('assets/js/json/coffees.json', 'coffeeCards');
   } else if (currentPage.includes('icecreams')) {
-      await loadProducts('./assets/js/json/ice_creams.json', 'icecreamCards');
+      await loadProducts('assets/js/json/ice_creams.json', 'icecreamCards');
   }
 };

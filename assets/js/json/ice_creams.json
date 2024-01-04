@@ -1,7 +1,7 @@
 {
     "0": {
       "name": "Epres fagylalt",
-      "image": "./assets/img/products/ice_creams/1.jpg",
+      "image": "assets/img/products/ice_creams/1.jpg",
       "ingredients": ["Eper", "Tejszín", "Tej", "Cukor"],
       "size": "120 g",
       "price": "5€",
@@ -9,7 +9,7 @@
     },
     "1": {
       "name": "Karamellás fagylalt",
-      "image": "./assets/img/products/ice_creams/2.jpg",
+      "image": "assets/img/products/ice_creams/2.jpg",
       "ingredients": ["Karamella", "Tejszín", "Tej", "Cukor"],
       "size": "125 g",
       "price": "5.5€",
@@ -17,7 +17,7 @@
     },
     "2": {
       "name": "Görögdinnyés fagylalt",
-      "image": "./assets/img/products/ice_creams/3.jpg",
+      "image": "assets/img/products/ice_creams/3.jpg",
       "ingredients": ["Görögdinnye", "Tejszín", "Tej", "Cukor"],
       "size": "120 g",
       "price": "5€",
@@ -25,7 +25,7 @@
     },
     "3": {
       "name": "Mogyorós fagylalt",
-      "image": "./assets/img/products/ice_creams/4.jpg",
+      "image": "assets/img/products/ice_creams/4.jpg",
       "ingredients": ["Mogyoró", "Tejszín", "Tej", "Cukor"],
       "size": "130 g",
       "price": "5€",
@@ -33,7 +33,7 @@
     },
     "4": {
       "name": "Tutti-frutti fagylalt",
-      "image": "./assets/img/products/ice_creams/5.jpg",
+      "image": "assets/img/products/ice_creams/5.jpg",
       "ingredients": ["Csokoládé", "Gyümölcs (Eper, áfonya)", "Citromlé", "Tejszín", "Tej", "Cukor"],
       "size": "115 g",
       "price": "4.5€",
@@ -41,7 +41,7 @@
     },
     "5": {
       "name": "Pekándiós fagylalt",
-      "image": "./assets/img/products/ice_creams/6.jpg",
+      "image": "assets/img/products/ice_creams/6.jpg",
       "ingredients": ["Pekándió", "Tejszín", "Tej", "Cukor"],
       "size": "130 g",
       "price": "5€",
@@ -49,7 +49,7 @@
     },
     "6": {
       "name": "Csokoládés fagylalt",
-      "image": "./assets/img/products/ice_creams/7.jpg",
+      "image": "assets/img/products/ice_creams/7.jpg",
       "ingredients": ["Csokoládé", "Tejszín", "Tej", "Cukor"],
       "size": "125 g",
       "price": "5.5€",
@@ -57,7 +57,7 @@
     },
     "7": {
       "name": "Almás fagylalt",
-      "image": "./assets/img/products/ice_creams/8.jpg",
+      "image": "assets/img/products/ice_creams/8.jpg",
       "ingredients": ["Alma", "Tejszín", "Tej", "Cukor"],
       "size": "120 g",
       "price": "4.5€",
@@ -65,7 +65,7 @@
     },
     "8": {
       "name": "Citromos fagylalt",
-      "image": "./assets/img/products/ice_creams/9.jpg",
+      "image": "assets/img/products/ice_creams/9.jpg",
       "ingredients": ["Citrom", "Tejszín", "Tej", "Cukor"],
       "size": "135 g",
       "price": "5€",
@@ -73,7 +73,7 @@
     },
     "9": {
       "name": "Vaníliás fagylalt",
-      "image": "./assets/img/products/ice_creams/10.jpg",
+      "image": "assets/img/products/ice_creams/10.jpg",
       "ingredients": ["Vanília", "Tejszín", "Tej", "Cukor"],
       "size": "125 g",
       "price": "5€",
@@ -81,7 +81,7 @@
     },
     "10": {
       "name": "Oreós fagylalt",
-      "image": "./assets/img/products/ice_creams/11.jpg",
+      "image": "assets/img/products/ice_creams/11.jpg",
       "ingredients": ["Oreo", "Tejszín", "Tej", "Cukor"],
       "size": "130 g",
       "price": "5.5€",
@@ -89,7 +89,7 @@
     },
     "11": {
       "name": "Pisztáciás fagylalt",
-      "image": "./assets/img/products/ice_creams/12.jpg",
+      "image": "assets/img/products/ice_creams/12.jpg",
       "ingredients": ["Pisztácia", "Tejszín", "Tej", "Cukor"],
       "size": "120 g",
       "price": "4.5€",

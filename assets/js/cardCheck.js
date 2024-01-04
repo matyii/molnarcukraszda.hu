@@ -1,5 +1,5 @@
-const visa = "./assets/img/cart/payment/visa.svg";
-const mastercard = "./assets/img/cart/payment/mastercard.svg";
+const visa = "assets/img/cart/payment/visa.svg";
+const mastercard = "assets/img/cart/payment/mastercard.svg";
 
 document.getElementById('inputCardNumber').addEventListener('input', function() {
     let cardNumber = this.value.replace(/\D/g, '');
