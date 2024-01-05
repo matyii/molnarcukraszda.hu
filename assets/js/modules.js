@@ -14,5 +14,5 @@ function loadModule(filePath, elementId) {
     });
 }
 
-loadModule('../modules/navbar.html', 'navbar-module');
-loadModule('../modules/shopbuttons.html', 'shopbuttons-module');
+loadModule('modules/navbar.html', 'navbar-module');
+loadModule('modules/shopbuttons.html', 'shopbuttons-module');
