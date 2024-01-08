@@ -72,21 +72,25 @@ async function loadProducts(jsonFile, targetElementId) {
   }
 }
 
-function getCurrentPage() {
-  return window.location.pathname;
+function getActivePage() {
+  var x = window.location.pathname.split("/")[2].split("."[0]);
+  var currentElement = document.getElementById(x)
+  currentElement.classList.add('active')
+  return x;
 }
 
 window.onload = async () => {
-  const currentPage = getCurrentPage();
-  if (currentPage.includes('cakes')) {
+  getActivePage();
+  const currentPage = getActivePage();
+  if (currentPage == 'cakes') {
     await loadProducts('assets/js/json/cakes.json', 'cakeCards');
-  } else if (currentPage.includes('desserts')) {
+  } else if (currentPage == 'desserts') {
       await loadProducts('assets/js/json/desserts.json', 'dessertCards');
-  } else if (currentPage.includes('drinks')) {
+  } else if (currentPage == 'drinks') {
       await loadProducts('assets/js/json/drinks.json', 'drinkCards');
-  } else if (currentPage.includes('coffees')) {
+  } else if (currentPage == 'coffees') {
       await loadProducts('assets/js/json/coffees.json', 'coffeeCards');
-  } else if (currentPage.includes('icecreams')) {
+  } else if (currentPage == 'icecreams') {
       await loadProducts('assets/js/json/ice_creams.json', 'icecreamCards');
   }
 };
