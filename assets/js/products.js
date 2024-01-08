@@ -73,7 +73,6 @@ async function loadProducts(jsonFile, targetElementId) {
 }
 
 window.onload = async () => {
-  getActivePage();
   const currentPage = window.location.pathname.split("/")[2].split(".")[0];
   if (currentPage == 'cakes') {
     await loadProducts('assets/js/json/cakes.json', 'cakeCards');
