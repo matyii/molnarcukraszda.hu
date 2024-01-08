@@ -72,16 +72,9 @@ async function loadProducts(jsonFile, targetElementId) {
   }
 }
 
-function getActivePage() {
-  var x = window.location.pathname.split("/")[2].split(".")[0];
-  var currentElement = document.getElementById(x)
-  currentElement.classList.add('active')
-  return x;
-}
-
 window.onload = async () => {
   getActivePage();
-  const currentPage = getActivePage();
+  const currentPage = window.location.pathname.split("/")[2].split(".")[0];
   if (currentPage == 'cakes') {
     await loadProducts('assets/js/json/cakes.json', 'cakeCards');
   } else if (currentPage == 'desserts') {
