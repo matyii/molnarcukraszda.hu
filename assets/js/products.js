@@ -73,16 +73,16 @@ async function loadProducts(jsonFile, targetElementId) {
 }
 
 window.onload = async () => {
-  const currentPage = window.location.pathname.split("/")[2].split(".")[0];
-  if (currentPage == 'cakes') {
+  const currentPage = window.location.pathname;
+  if (currentPage.includes('cakes')) {
     await loadProducts('assets/js/json/cakes.json', 'cakeCards');
-  } else if (currentPage == 'desserts') {
+  } else if (currentPage.includes('desserts')) {
       await loadProducts('assets/js/json/desserts.json', 'dessertCards');
-  } else if (currentPage == 'drinks') {
+  } else if (currentPage.includes('drinks')) {
       await loadProducts('assets/js/json/drinks.json', 'drinkCards');
-  } else if (currentPage == 'coffees') {
+  } else if (currentPage.includes('coffees')) {
       await loadProducts('assets/js/json/coffees.json', 'coffeeCards');
-  } else if (currentPage == 'icecreams') {
+  } else if (currentPage.includes('icecreams')) {
       await loadProducts('assets/js/json/ice_creams.json', 'icecreamCards');
   }
 };
